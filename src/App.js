@@ -5,6 +5,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Main from './Pages/Main';
 import Playlists from './Pages/Playlists';
+import Games from './Pages/Games'
 
 
 function App() {

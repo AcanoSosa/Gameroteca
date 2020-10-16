@@ -9,10 +9,23 @@
     font-family:Montserrat;
     font-weight: 700;
     font-size: 1em;
-    color:#000;
+    color:#fff;
     text-transform: uppercase;
     margin-bottom:1em;
+    margin-left:10em;
 }
 .cont-play-title{
     margin:2em 0 0 0;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.back-play{
+    background: rgba(0,6,20,1);
+    min-height: 47.3vw;
+    height: -webkit-fill-available;
 }

@@ -5,17 +5,20 @@ import './Playlists.css'
 
 const Playlists = () => {
     return (
-        <div>
-            <div className="header">
+        <div className="back-play">
+            <div className="header background">
                 <div className="container">
-                    <h2>Es momento de tener nuevas aventuras</h2>
+                    <h1>Es momento de tener nuevas aventuras</h1>
                 </div>
             </div>
-            <div className="container">
-            <div className="cont-play-title">
-            <p className="play-title">Games to play</p>    
-            </div>
-            <PlaylistsC/>
+            <div className="container-fluid">
+                <div className="cont-play-title">
+                    <p className="play-title">Games to play</p>
+                </div>
+                <div className="card-container">
+                <PlaylistsC />
+                <PlaylistsC />
+                </div>
             </div>
         </div>
     )
