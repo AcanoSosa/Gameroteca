@@ -1,0 +1,24 @@
+.nav {
+    background-color: #000614;
+    height: 70px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.link-container{
+    display:flex;
+    flex-direction: row;
+    margin:0;
+}
+.link-item{
+    margin:0 1em 0 1em;
+    list-style-type:none;
+}
+.link-option{
+    font-family:Montserrat;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color:#55FFFF;
+
+}

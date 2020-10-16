@@ -1,0 +1,6 @@
+.background{
+    background: rgb(12,60,78);
+    background: radial-gradient(circle, rgba(12,60,78,1) 0%, rgba(6,32,48,1) 48%, rgba(0,6,20,1) 100%);
+    width: 100vw;
+    height:500px;
+  }
