@@ -9,14 +9,14 @@ const Navbar = () => {
                 <NavLink className="link-option" to="/">Gameroteca</NavLink>
             </div>
             <div className="links">
-                <ul class="link-container">
-                    <li class="link-item">
+                <ul className="link-container">
+                    <li className="link-item">
                         <NavLink className="link-option" to="">Games</NavLink>
                     </li>
-                    <li class="link-item">
+                    <li className="link-item">
                     <NavLink className="link-option" to="/playlists">Playlists</NavLink>
                     </li>
-                    <li class="link-item">
+                    <li className="link-item">
                         <a className="link-option">Profile</a>
                     </li>
                 </ul>
